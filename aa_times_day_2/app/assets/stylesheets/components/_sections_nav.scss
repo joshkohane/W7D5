@@ -1,0 +1,29 @@
+.sections-nav{
+    display:flex;
+    padding: 10px;
+    border-bottom: 1px solid $light-gray;
+    justify-content: center;
+    align-items: center;
+
+    > li {
+        font-size: 12px;
+        font-family: $sans-serif;
+        padding: 0 7px;
+    }
+
+    a:hover {
+        background: $light-gray;
+        text-decoration: none;
+    }
+
+    li:last-child a:hover {
+        text-decoration: underline;
+        background: white;
+    }
+
+    li:last-child{
+        font-size: 11px;
+    }
+
+}
+
